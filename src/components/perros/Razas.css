@@ -1,0 +1,29 @@
+.btn-primary{
+    background-color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.btn-primary:hover{
+    background-color:white;
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+}
+.card-img-top{
+    width: 250px;
+}
+
+.card{
+    border-color:var(--purple-color);
+    min-height: 420px;
+    max-height: 600px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn-primary:focus{
+    background-color: #00B2B1;
+    border: 2px solid #00B2B1;
+}
